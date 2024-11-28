@@ -109,7 +109,7 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 		},
 		{
 			text: '市场商品相关接口',
-			collapsed: false,
+			collapsed: true,
 			items: [
 				{ text: '价格列表（有库存的皮肤）', link: 'what-is-vitepress' },
 				{ text: '搜索皮肤', link: 'getting-started' },
@@ -120,7 +120,7 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 		},
 		{
 			text: '购买功能接口',
-			collapsed: false,
+			collapsed: true,
 			items: [
 				{ text: '价格列表（有库存的皮肤）', link: 'what-is-vitepress' },
 				{ text: '搜索皮肤', link: 'getting-started' },
@@ -217,6 +217,7 @@ function sidebarReference() : DefaultTheme.SidebarItem[] {
 		}
 	]
 }
+
 
 export const search : DefaultTheme.AlgoliaSearchOptions['locales'] = {
 	zh: {
