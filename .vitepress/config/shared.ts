@@ -67,11 +67,11 @@ export const shared = defineConfig({
 		}],
 		['meta', {
 			property: 'og:title',
-			content: 'Trading Station Docs | Vite & Vue Powered Static Site Generator'
+			content: '11Trading Station Docs | Vite & Vue Powered Static Site Generator'
 		}],
 		['meta', {
 			property: 'og:site_name',
-			content: 'Trading Station Docs'
+			content: '22Trading Station Docs'
 		}],
 		['meta', {
 			property: 'og:image',
@@ -105,7 +105,7 @@ export const shared = defineConfig({
 
 		// 基于algolia，需要注册替换https://dashboard.algolia.com/dashboard/
 		search: {
-			provider: 'local',
+			provider: 'local',	//本地模式
 			// provider: 'algolia',
 			options: {
 				// appId: '8J64VVRP8K',
