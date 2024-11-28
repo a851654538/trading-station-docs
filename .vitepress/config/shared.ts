@@ -45,13 +45,13 @@ export const shared = defineConfig({
 		['link', {
 			rel: 'icon',
 			type: 'image/svg+xml',
-			href: '/vitepress-logo-mini.svg'
+			href: '/trading-station-docs/vitepress-logo-mini.svg'
 		}],
 		//favicon.ico
 		['link', {
 			rel: 'icon',
 			type: 'image/png',
-			href: '/vitepress-logo-mini.png'
+			href: '/trading-station-docs/vitepress-logo-mini.png'
 		}],
 		['meta', {
 			name: 'theme-color',
@@ -73,14 +73,14 @@ export const shared = defineConfig({
 			property: 'og:site_name',
 			content: '22Trading Station Docs'
 		}],
-		['meta', {
-			property: 'og:image',
-			content: 'https://vitepress.dev/vitepress-og.jpg'
-		}],
-		['meta', {
-			property: 'og:url',
-			content: 'https://vitepress.dev/'
-		}],
+		// ['meta', {
+		// 	property: 'og:image',
+		// 	content: 'https://vitepress.dev/vitepress-og.jpg'
+		// }],
+		// ['meta', {
+		// 	property: 'og:url',
+		// 	content: 'https://vitepress.dev/'
+		// }],
 		['script', {
 			src: 'https://cdn.usefathom.com/script.js',
 			'data-site': 'AZBRSFGG',
