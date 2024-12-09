@@ -108,7 +108,7 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 			]
 		},
 		{
-			text: '市场商品相关接口',
+			text: '市场商品相关接口1',
 			collapsed: true,
 			items: [
 				{ text: '价格列表（有库存的皮肤）', link: 'what-is-vitepress' },
