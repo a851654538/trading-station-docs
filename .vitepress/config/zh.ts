@@ -122,6 +122,7 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 	]
 }
 
+
 function sidebarReference() : DefaultTheme.SidebarItem[] {
 	return [
 		{
