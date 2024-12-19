@@ -9,45 +9,29 @@ outline: deep
 ## 请求地址
 
 - **类型** : `POST`
-- **地址** : `/v1/user/v1/t-coin/balance`
+- **地址** : `/api/merchant/info`
 
 
 ## 请求参数
 
 ### 字段说明
-| 参数名		| 参数类型							|    是否必填				| 字段说明	|
-| ----------| -------------------------------	|----------------------	|-----		|
-| app-key	| `string`							|是						| xxxx		|
-| app-key	| `string`							|是						| xxxx		|
-| app-key	| `string`							|是						| xxxx		|
-| app-key	| `string`							|是						| xxxx		|
-| app-key	| `string`							|是						| xxxx		|
+| 参数名		| 参数类型							|    是否必填				| 字段说明	       |
+| ----------| -------------------------------	|----------------------	|-------------|
+| appId	| `string`							|是						| APPID		     |
+| appSecret	| `string`							|是						| appSecret		 |
+| t	| `string`							|是						| 毫秒时间戳		     |
 
 ### 请求示例
 
 ## 返回响应
 ### 字段说明
-
-### 字段说明
-| 参数名		| 参数类型							| 字段说明	|
-| ----------| -------------------------------	|-----		|
-| app-key	| `string`							| xxxx		|
-| app-key	| `string`							| xxxx		|
-| app-key	| `string`							| xxxx		|
-| app-key	| `string`							| xxxx		|
-| app-key	| `string`							| xxxx		|
-
 ### 响应示例
 ```json
 {
-  "success": false,
+  "code": 200, //code
+  "msg": "操作成功",
   "data": {
-    "userId": 0,
-    "name": "",
-    "data": ""
-  },
-  "errorCode": 0,
-  "errorMsg": "",
-  "errorData": {}
+    "money": 10101.0000 //余额
+  }
 }
 ```

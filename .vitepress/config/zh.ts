@@ -92,52 +92,39 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 			collapsed: false,
 			items: [
 				{ text: '基本信息', link: 'base-information' },
-				{ text: '生成签名', link: 'getting-started' },
-				{ text: '更新记录', link: 'update-record' },
+				// { text: '生成签名', link: 'getting-started' },
+				// { text: '更新记录', link: 'update-record' },
 			]
 		},
 		{
 			text: '用户相关接口',
 			collapsed: false,
 			items: [
-				{ text: '价格列表（有库存的皮肤）', link: 'test-api' },
-				{ text: '搜索皮肤', link: 'getting-started' },
-				{ text: '购买皮肤', link: 'getting-started' },
-				{ text: '购买皮肤的状态', link: 'routing' },
-				{ text: '皮肤购买的历史', link: 'deploy' }
+				{ text: '用户余额', link: 'test-api' },
+				// { text: '搜索皮肤', link: 'getting-started' },
+				// { text: '购买皮肤', link: 'getting-started' },
+				// { text: '购买皮肤的状态', link: 'routing' },
+				// { text: '皮肤购买的历史', link: 'deploy' }
 			]
 		},
 		{
-			text: '市场商品相关接口1',
+			text: '饰品',
 			collapsed: true,
 			items: [
-				{ text: '价格列表（有库存的皮肤）', link: 'what-is-vitepress' },
-				{ text: '搜索皮肤', link: 'getting-started' },
-				{ text: '购买皮肤', link: 'getting-started' },
-				{ text: '购买皮肤的状态', link: 'routing' },
-				{ text: '皮肤购买的历史', link: 'deploy' }
-			]
-		},
-		{
-			text: '购买功能接口',
-			collapsed: true,
-			items: [
-				{ text: '价格列表（有库存的皮肤）', link: 'what-is-vitepress' },
-				{ text: '搜索皮肤', link: 'getting-started' },
-				{ text: '购买皮肤', link: 'getting-started' },
-				{ text: '购买皮肤的状态', link: 'routing' },
-				{ text: '皮肤购买的历史', link: 'deploy' }
+				{ text: '价格列表（有库存的皮肤）', link: 'product-list' },
+				// { text: '搜索皮肤', link: 'getting-started' },
+				// { text: '购买皮肤', link: 'getting-started' },
+				// { text: '购买皮肤的状态', link: 'routing' },
+				// { text: '皮肤购买的历史', link: 'deploy' }
 			]
 		},
 		{
 			text: '订单相关接口',
-			collapsed: false,
+			collapsed: true,
 			items: [
-				{ text: '价格列表（有库存的皮肤）', link: 'what-is-vitepress' },
-				{ text: '搜索皮肤', link: 'getting-started' },
-				{ text: '购买皮肤', link: 'getting-started' },
-				{ text: '购买皮肤的状态', link: 'routing' },
-				{ text: '皮肤购买的历史', link: 'deploy' }
+				{ text: '购买饰品', link: 'trade-buy' },
+				{ text: '订单信息', link: 'order-info' },
+				{ text: '取消订单', link: 'cancel-order' }
 			]
 		},
 
