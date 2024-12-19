@@ -67,7 +67,7 @@ function nav() : DefaultTheme.NavItem[] {
 		// },
 		{
 			text: '商户中心',
-			link: 'https://www.baidu.com',
+			link: 'http://47.236.202.175:8081',
 		},
 		// {
 		// 	text: pkg.version,
@@ -97,78 +97,28 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 			]
 		},
 		{
-			text: '用户相关接口',
+			text: '用户相关',
 			collapsed: false,
 			items: [
-				{ text: '用户余额', link: 'test-api' },
-				// { text: '搜索皮肤', link: 'getting-started' },
-				// { text: '购买皮肤', link: 'getting-started' },
-				// { text: '购买皮肤的状态', link: 'routing' },
-				// { text: '皮肤购买的历史', link: 'deploy' }
+				{ text: '用户余额', link: 'merchant-info' },
 			]
 		},
 		{
-			text: '饰品',
-			collapsed: true,
+			text: '饰品相关',
+			collapsed: false,
 			items: [
 				{ text: '价格列表（有库存的皮肤）', link: 'product-list' },
-				// { text: '搜索皮肤', link: 'getting-started' },
-				// { text: '购买皮肤', link: 'getting-started' },
-				// { text: '购买皮肤的状态', link: 'routing' },
-				// { text: '皮肤购买的历史', link: 'deploy' }
 			]
 		},
 		{
-			text: '订单相关接口',
-			collapsed: true,
+			text: '订单相关',
+			collapsed: false,
 			items: [
 				{ text: '购买饰品', link: 'trade-buy' },
 				{ text: '订单信息', link: 'order-info' },
 				{ text: '取消订单', link: 'cancel-order' }
 			]
 		},
-
-		// {
-		// 	text: '简介',
-		// 	collapsed: false,
-		// 	items: [
-		// 		{ text: '什么是 VitePress？', link: 'what-is-vitepress' },
-		// 		{ text: '快速开始', link: 'getting-started' },
-		// 		{ text: '路由', link: 'routing' },
-		// 		{ text: '部署', link: 'deploy' }
-		// 	]
-		// },
-		// {
-		// 	text: '写作',
-		// 	collapsed: false,
-		// 	items: [
-		// 		{ text: 'Markdown 扩展', link: 'markdown' },
-		// 		{ text: '资源处理', link: 'asset-handling' },
-		// 		{ text: 'frontmatter', link: 'frontmatter' },
-		// 		{ text: '在 Markdown 使用 Vue', link: 'using-vue' },
-		// 		{ text: '国际化', link: 'i18n' }
-		// 	]
-		// },
-		// {
-		// 	text: '自定义',
-		// 	collapsed: false,
-		// 	items: [
-		// 		{ text: '自定义主题', link: 'custom-theme' },
-		// 		{ text: '扩展默认主题', link: 'extending-default-theme' },
-		// 		{ text: '构建时数据加载', link: 'data-loading' },
-		// 		{ text: 'SSR 兼容性', link: 'ssr-compat' },
-		// 		{ text: '连接 CMS', link: 'cms' }
-		// 	]
-		// },
-		// {
-		// 	text: '实验性功能',
-		// 	collapsed: false,
-		// 	items: [
-		// 		{ text: 'MPA 模式', link: 'mpa-mode' },
-		// 		{ text: 'sitemap 生成', link: 'sitemap-generation' }
-		// 	]
-		// },
-		// { text: '配置和 API 参考', base: '/zh/reference/', link: 'site-config' }
 	]
 }
 
