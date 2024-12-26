@@ -23,7 +23,6 @@ outline: deep
 | productId	 | `string`							  |是						| 饰品ID		      |
 | channelOrderNo	   | `string`							  |是						| 商户订单号		     |
 | fetchTrackLink	   | `string`							  |是						| 收货人交易连接		     |
-| fetchSteamUid	   | `string`							  |是						| 收货人steam_id		     |
 | unitPrice	   | `Number`							  |是						| 价格（两位小数）￥		     |
 ### 请求示例
 

@@ -111,6 +111,7 @@ function sidebarGuide() : DefaultTheme.SidebarItem[] {
 			text: '饰品',
 			collapsed: true,
 			items: [
+				{ text: '饰品筛选', link: 'product-search' },
 				{ text: '价格列表（有库存的皮肤）', link: 'product-list' },
 				// { text: '搜索皮肤', link: 'getting-started' },
 				// { text: '购买皮肤', link: 'getting-started' },
