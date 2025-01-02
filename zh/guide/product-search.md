@@ -35,7 +35,6 @@ outline: deep
   "data": {
     "rows": [
       {
-        "productId": "6848512", //饰品ID
         "store": 2, //库存
         "marketHashName": "AWP | 二西莫夫 (久经沙场)", //名称
         "iconUrl": "https://igstatic.igxe.cn/steam/image/730/7ebc80509abf40dd39befc48d9ce1c84.png", //图片
