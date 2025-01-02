@@ -38,7 +38,7 @@ outline: deep
         "store": 2, //库存
         "marketHashName": "AWP | 二西莫夫 (久经沙场)", //名称
         "iconUrl": "https://igstatic.igxe.cn/steam/image/730/7ebc80509abf40dd39befc48d9ce1c84.png", //图片
-        "exterior_wear": null, //磨损
+        "exteriorWear": null, //磨损
         "minPrice": "0.03" //最低售价￥
       }
     ],

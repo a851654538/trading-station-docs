@@ -39,7 +39,7 @@ outline: deep
         "deliveryType": 2, //发货方式1:自动，2：人工
         "marketHashName": "AWP | 二西莫夫 (久经沙场)", //名称
         "iconUrl": "https://igstatic.igxe.cn/steam/image/730/7ebc80509abf40dd39befc48d9ce1c84.png", //图片
-        "exterior_wear": null, //磨损
+        "exteriorWear": null, //磨损
         "price": "0.03", //售价￥
       }
     ],
