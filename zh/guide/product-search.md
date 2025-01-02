@@ -23,7 +23,6 @@ outline: deep
 | pageNo	         | `Integer`							 |是						| 页码		                        |
 | pageSize	       | `Integer`							 |是						| 每页多少条		                     |
 | marketHashName	 | `string`							  |是						| steam唯一名称market_hash_name		 |
-| deliveryType	   | `Integer`							  |是						| 发货方式1:自动，2：人工		             |
 ### 请求示例
 
 ## 返回响应
@@ -37,11 +36,11 @@ outline: deep
     "rows": [
       {
         "productId": "6848512", //饰品ID
-        "deliveryType": 2, //发货方式1:自动，2：人工
+        "store": 2, //库存
         "marketHashName": "AWP | 二西莫夫 (久经沙场)", //名称
         "iconUrl": "https://igstatic.igxe.cn/steam/image/730/7ebc80509abf40dd39befc48d9ce1c84.png", //图片
         "exterior_wear": null, //磨损
-        "price": "0.03" //售价￥
+        "minPrice": "0.03" //最低售价￥
       }
     ],
     "isMore": 1 //1：更多
