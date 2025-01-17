@@ -66,7 +66,7 @@ function nav() : DefaultTheme.NavItem[] {
 		// },
 		{
 			text: '商户中心',
-			link: 'http://47.236.202.175:8081',
+			link: 'http://merchant.skins77.com',
 		},
 		// {
 		// 	text: pkg.version,

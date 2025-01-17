@@ -6,9 +6,9 @@ import {
 } from './zh'
 
 export const shared = defineConfig({
-	base: '/trading-station-docs/',
+	base: '/',
 	//顶部左侧标题
-	title: 'trading-station-docs',
+	title: 'Skins77',
 
 	//路由映射模式
 	rewrites: {
@@ -46,13 +46,13 @@ export const shared = defineConfig({
 		['link', {
 			rel: 'icon',
 			type: 'image/svg+xml',
-			href: '/trading-station-docs/vitepress-logo-mini.svg'
+			href: '/vitepress-logo-mini.svg'
 		}],
 		//favicon.ico
 		['link', {
 			rel: 'icon',
 			type: 'image/png',
-			href: '/trading-station-docs/vitepress-logo-mini.png'
+			href: '/vitepress-logo-mini.png'
 		}],
 		['meta', {
 			name: 'theme-color',
