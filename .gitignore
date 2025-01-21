@@ -1,6 +1,7 @@
 node_modules
 .DS_Store
 dist
+game_doc
 dist-ssr
 cache
 .cache
