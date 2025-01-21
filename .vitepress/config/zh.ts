@@ -13,7 +13,7 @@ export const zh = defineConfig({
 		nav: nav(),
 
 		sidebar: {
-			'/zh/guide/': { base: '/zh/guide/', items: sidebarGuide() },
+			'/guide/': { base: '/guide/', items: sidebarGuide() },
 		},
 
 		// editLink: {
@@ -56,8 +56,8 @@ function nav() : DefaultTheme.NavItem[] {
 	return [
 		{
 			text: '指南',
-			link: '/zh/guide/base-information',
-			activeMatch: '/zh/guide/'
+			link: '/guide/base-information',
+			activeMatch: '/guide/'
 		},
 		// {
 		// 	text: '参考',
@@ -66,7 +66,7 @@ function nav() : DefaultTheme.NavItem[] {
 		// },
 		{
 			text: '商户中心',
-			link: 'http://merchant.skins77.com',
+			link: 'https://merchant.skins77.com',
 		},
 		// {
 		// 	text: pkg.version,

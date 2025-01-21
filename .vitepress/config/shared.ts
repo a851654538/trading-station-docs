@@ -12,8 +12,8 @@ export const shared = defineConfig({
 
 	//路由映射模式
 	rewrites: {
-		// 'zh/:rest*': ':rest*'
-		'en/:rest*': ':rest*'
+		// 'en/:rest*': ':rest*'
+		'zh/:rest*': ':rest*'
 	},
 
 	lastUpdated: true,
@@ -106,12 +106,12 @@ export const shared = defineConfig({
 
 		// 基于algolia，需要注册替换https://dashboard.algolia.com/dashboard/
 		search: {
-			// provider: 'local',	//本地模式
-			provider: 'algolia',
+			provider: 'local',	//本地模式
+			// provider: 'algolia',
 			options: {
-				appId: '8J64VVRP8K',
-				apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
-				indexName: 'vitepress',
+				// appId: '8J64VVRP8K',
+				// apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
+				// indexName: 'vitepress',
 				locales: {
 					...zhSearch,
 				}

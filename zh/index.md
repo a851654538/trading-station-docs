@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: API便捷采购/出售饰品
-      link: /zh/guide/base-information
+      link: /guide/base-information
     - theme: alt
       text: 什么是Skins77
-      link: /zh/guide/base-information
+      link: /guide/base-information
     # - theme: alt
     #   text: GitHub
     #   link: https://github.com/vuejs/vitepress
