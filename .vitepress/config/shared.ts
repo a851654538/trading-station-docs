@@ -45,14 +45,8 @@ export const shared = defineConfig({
 		//favicon.ico
 		['link', {
 			rel: 'icon',
-			type: 'image/svg+xml',
-			href: '/vitepress-logo-mini.svg'
-		}],
-		//favicon.ico
-		['link', {
-			rel: 'icon',
 			type: 'image/png',
-			href: '/vitepress-logo-mini.png'
+			href: '/logo.png'
 		}],
 		['meta', {
 			name: 'theme-color',
@@ -93,7 +87,7 @@ export const shared = defineConfig({
 	themeConfig: {
 		//顶部标题左侧的logo
 		logo: {
-			src: '/vitepress-logo-mini.svg',
+			src: '/logo.png',
 			width: 24,
 			height: 24
 		},
